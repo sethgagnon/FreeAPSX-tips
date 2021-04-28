@@ -1,0 +1,38 @@
+site_name: FreeAPS-X Docs & Tips
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+      - yaml
+extra_css:
+    - css/admonitions.css
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: ⌁
+
+pages:
+- Home: 'index.md'
+- Settings:
+    - 'Why Settings Matter': 'settings/overview.md'
+    - 'Initial Settings': 'settings/settings.md'
+    - 'Adjust Your Settings': 'settings/adjust.md'
+- How To:
+    - 'Think Like a Loop': 'how-to/think-like-loop.md'
+    - 'CGM habits': 'how-to/cgm.md'
+    - 'Use morning IOB': 'how-to/iob.md'
+    - 'Override Targets': 'how-to/overrides.md'
+    - 'Low Treatments': 'how-to/low-treat.md'
+    - 'Shower & Swimming': 'how-to/disconnect.md'
+    - 'Exercise': 'how-to/exercise.md'
+    - 'Extended Bolus': 'how-to/bolus.md'
+    - 'Site Failure': 'how-to/site-fail.md'
+    - 'Stuck on High': 'how-to/high-bg.md'
+    - 'Talk with Endo': 'how-to/endo.md'
+- Algorithm:
+    - 'Overview': 'algorithm/overview.md'
+    - 'Prediction': 'algorithm/prediction.md'
+    - 'Basal': 'algorithm/temp-basal.md'
+    - 'Bolus': 'algorithm/bolus.md'
+
+
